@@ -7,6 +7,13 @@
 
   <ItemGroup>
     <Compile Include="*.cs" />
+    <Compile Include="Weight\Enums\ImperialUnit.cs" />
+    <Compile Include="Weight\Enums\MetricUnit.cs" />
+    <Compile Include="Weight\ImperialWeight.cs" />
+    <Compile Include="Weight\IWeightSystem.cs" />
+    <Compile Include="Weight\MetricWeight.cs" />
+    <Compile Include="Weight\Weight.cs" />
+    <Compile Include="Weight\Enums\WeightSystem.cs" />
     <None Include="README.md" />
   </ItemGroup>
 
